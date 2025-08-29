@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12 Study Resources 📚</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Shadows+Into+Light&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Shadows+Into+Light&display=swap"></noscript>
+    <style>
+        /* CSS remains the same */
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #f0f2f5;
+            --text-color: #333;
+            --card-bg: #fff;
+            --hover-color: #388e3c;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--secondary-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 30px;
+            width: 100%;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+        header h1 {
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 3rem;
+            margin: 0;
+        }
+        main {
+            width: 100%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .subject-card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+        .subject-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+        .subject-card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+        .subject-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .subject-card li {
+            margin-bottom: 10px;
+        }
+        .subject-card a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: color 0.3s ease;
+        }
+        .subject-card a:hover {
+            color: var(--hover-color);
+        }
+        .search-section {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            margin-top: 40px;
+            text-align: center;
+        }
+        .search-section h2 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+        .search-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        .search-input-group {
+            display: flex;
+            width: 100%;
+            max-width: 500px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .search-input-group input[type="text"] {
+            flex-grow: 1;
+            padding: 12px;
+            font-size: 1rem;
+            border: none;
+            outline: none;
+        }
+        .search-input-group button {
+            padding: 12px 20px;
+            font-size: 1rem;
+            border: none;
+            background-color: #ff0000;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .search-input-group button:hover {
+            background-color: #cc0000;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            .subject-grid {
+                grid-template-columns: 1fr;
+            }
+            .search-input-group {
+                flex-direction: column;
+                border: none;
+            }
+            .search-input-group input[type="text"] {
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Class 12 Study Resources 📚</h1>
+</header>
+<main>
+    <section class="subject-grid">
+        <article class="subject-card">
+            <h3>English 📘</h3>
+            <ul>
+                <li><a href="https://m.youtube.com/playlist?list=PLINZtyI0yfBkGmGXnId07Uxr84nlDQ26O" target="_blank">Educational Bhaiya</a></li>
+                <li><a href="https://m.youtube.com/playlist?list=PLlz6Wm71kc1LrPRNsd_W05dUb5KEkR0iY" target="_blank">Simran Sahni</a></li>
+            </ul>
+        </article>
+        <article class="subject-card">
+            <h3>Political Science 🏛️</h3>
+            <ul>
+                <li><a href="https://m.youtube.com/playlist?list=PLR0R7uA6mUyqdtx3lignAacnu2ceE_I8t" target="_blank">Ekaksha</a></li>
+                <li><a href="https://m.youtube.com/playlist?list=PLji1hfchuQPlUO_NgET7fLZiRahqfTOw4" target="_blank">Eklavya Study Point</a></li>
+            </ul>
+        </article>
+        <article class="subject-card">
+            <h3>Sociology 👥</h3>
+            <ul>
+                <li><a href="https://m.youtube.com/playlist?list=PLji1hfchuQPm-Hhv3JVSkSKCS0D_kNrL9" target="_blank">Eklavya Study Point</a></li>
+            </ul>
+        </article>
+        <article class="subject-card">
+            <h3>Mathematics ➗</h3>
+            <ul>
+                <li><a href="https://m.youtube.com/playlist?list=PLjcFFdEpfDiVKUKSmePKM5R36KRiT_guB" target="_blank">Science and Fun</a></li>
+                <li><a href="https://www.youtube.com/results?sp=mAEA&search_query=maa+ram+murti+classes+class+12th+" target="_blank">Maa Ram Murti Classes</a></li>
+            </ul>
+        </article>
+        <article class="subject-card">
+            <h3>Computer Science 💻</h3>
+            <ul>
+                <li><a href="https://youtube.com/playlist?list=PLmGElG-9wxc-b3CjZ7gARrp_lZOVviShd&feature=shared" target="_blank">Apni Kaksha</a></li>
+            </ul>
+        </article>
+    </section>
+    
+    <section class="search-section">
+        <h2>Quick YouTube Search 🔍</h2>
+        <form action="https://www.youtube.com/results" method="get" target="_blank" class="search-form">
+            <div class="search-input-group">
+                <input type="text" name="search_query" placeholder="e.g., 'Class 12 Physics Electromagnetism'">
+                <button type="submit">Search</button>
+            </div>
+            <p><strong>Tip:</strong> Be specific for better results!</p>
+        </form>
+    </section>
+</main>
+</body>
+  </html>
